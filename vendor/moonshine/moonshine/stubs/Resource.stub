@@ -1,0 +1,22 @@
+<?php
+
+declare(strict_types=1);
+
+namespace {namespace};
+
+use MoonShine\Resources\Resource;
+
+class DummyResource extends Resource
+{
+    public function pages(): array
+    {
+        return [
+            //
+        ];
+    }
+
+    protected function resolveRoutes(): void
+    {
+        parent::resolveRoutes();
+    }
+}
